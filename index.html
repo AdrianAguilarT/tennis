@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tennis</title>
+</head>
+<body>
+    <header id="site-header">
+        <img class="logo" src="./assets/images/logo.svg" alt="Tennis" title="Tennis">
+        <div class="header-links">
+            <ul class="style-none horizontal-lg">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de nosotros</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="langs">
+                <div>
+                    <a class="bold" href="#">ES</a>
+                    <a href="#">EN</a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-toggler collapsed">
+            <button class="burguer">
+                <div></div>
+            </button>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="logo-wrapper">
+            <img src="./assets/images/logo.svg" alt="Tennis" title="Tennis">
+        </div>
+        <div class="content">
+            <h1 class="title">Las mejores raquetas para jugar <b class="text-green">Tennis</b></h1>
+            <a href="#" class="btn white bold">ACERCA DE NOSOTROS <img src="./assets/images/icons/arrow-white.svg"></a>
+        </div>
+    </section>
+
+    <section id="history" class="bg-gray">
+        <div class="container">
+            <div class="row history-row">
+                <div class="text-md-right">
+                    <span class="tag">TENNIS</span>
+                </div>
+                <div>
+                    <h2 class="subtitle">Raquetas. Accesorios. Pelotas.</h2>
+                    <p class="text-gray">Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>
+                </div>
+                <div>
+                    <a href="#" class="btn">HISTORIA <img src="./assets/images/icons/arrow-black.svg"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rackets">
+        <div class="">
+            <div class="row rackets-row">
+                <div class="content">
+                    <div>
+                        <h2 class="subtitle m-0">Nuestras <b>Raquetas</b></h2>
+                        <p>Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>
+                        <div class="carousel-bullets d-none d-md-block">
+                            <button data-index="1" class="active"></button>
+                            <button data-index="2"></button>
+                            <button data-index="3"></button>
+                            <button data-index="4"></button>
+                            <button data-index="5"></button>
+                        </div>
+                        <div class="carousel-arrows d-none d-md-flex">
+                            <button class="prev">
+                                <img src="./assets/images/icons/arrow-alt.svg">
+                            </button>
+                            <button class="next">
+                                <img src="./assets/images/icons/arrow-alt.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-wrapper">
+                    <div class="carousel">
+                        <div class="slide" data-index="5">
+                            <a href="#" class="card">
+                                <span class="index">5</span>
+                                <img src="./assets/images/racket.jpg" srcset="./assets/images/racket@2x.jpg 2x, ./assets/images/racket@3x.jpg 3x" alt="Raqueta 5" title="Raqueta 5">
+                            </a>
+                        </div>
+                        <div class="slide active" data-index="1">
+                            <a href="#" class="card">
+                                <span class="index">1</span>
+                                <img src="./assets/images/racket.jpg" srcset="./assets/images/racket@2x.jpg 2x, ./assets/images/racket@3x.jpg 3x" alt="Raqueta 1" title="Raqueta 1">
+                            </a>
+                        </div>
+                        <div class="slide" data-index="2">
+                            <a href="#" class="card">
+                                <span class="index">2</span>
+                                <img src="./assets/images/racket.jpg" srcset="./assets/images/racket@2x.jpg 2x, ./assets/images/racket@3x.jpg 3x" alt="Raqueta 2" title="Raqueta 2">
+                            </a>
+                        </div>
+                        <div class="slide" data-index="3">
+                            <a href="#" class="card">
+                                <span class="index">3</span>
+                                <img src="./assets/images/racket.jpg" srcset="./assets/images/racket@2x.jpg 2x, ./assets/images/racket@3x.jpg 3x" alt="Raqueta 3" title="Raqueta 3">
+                            </a>
+                        </div>
+                        <div class="slide" data-index="4">
+                            <a href="#" class="card">
+                                <span class="index">4</span>
+                                <img src="./assets/images/racket.jpg" srcset="./assets/images/racket@2x.jpg 2x, ./assets/images/racket@3x.jpg 3x" alt="Raqueta 4" title="Raqueta 4">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <div class="carousel-bullets text-center d-block d-md-none">
+                        <button data-index="1" class="active"></button>
+                        <button data-index="2"></button>
+                        <button data-index="3"></button>
+                        <button data-index="4"></button>
+                        <button data-index="5"></button>
+                    </div>
+                    <div class="carousel-arrows d-flex d-md-none">
+                        <button class="prev">
+                            <img src="./assets/images/icons/arrow-black-alt.svg">
+                        </button>
+                        <button class="next">
+                            <img src="./assets/images/icons/arrow-black-alt.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="banner">
+        <img src="./assets/images/athlete.jpg" srcset="./assets/images/athlete@2x.jpg 2x, ./assets/images/athlete@3x.jpg 3x">
+    </section>
+
+    <footer id="site-footer" class="bg-green">
+        <div>
+            <div class="row footer-row">
+                <div>
+                    <ul class="style-none horizontal-md">
+                        <li><a class="text-blue mr-3h bold" href="#">Inicio</a></li>
+                        <li><a class="text-blue mr-3h" href="#">Acerca de nosotros</a></li>
+                        <li><a class="text-blue mr-3h" href="#">Historia</a></li>
+                        <li><a class="text-blue mr-3h" href="#">Contacto</a></li>
+                    </ul>
+                    <ul class="style-none horizontal">
+                        <li>
+                            <a href="#"><img class="social" src="./assets/images/icons/linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="social" src="./assets/images/icons/vimeo.svg" alt="Vimeo" title="Vimeo"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="social" src="./assets/images/icons/instagram.svg" alt="Instagram" title="Instagram"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="social" src="./assets/images/icons/twitter.svg" alt="Twitter" title="Twitter"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="social" src="./assets/images/icons/facebook.svg" alt="Facebook" title="Facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./assets/images/logo.svg" alt="Tennis" title="Tennis" class="logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./dist/main.js" async></script>
+</body>
+</html>
